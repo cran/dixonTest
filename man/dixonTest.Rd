@@ -4,8 +4,7 @@
 \alias{dixonTest}
 \title{Dixons Outlier Test (Q-Test)}
 \usage{
-dixonTest(x, alternative = c("two.sided", "greater", "less"),
-  refined = FALSE)
+dixonTest(x, alternative = c("two.sided", "greater", "less"), refined = FALSE)
 }
 \arguments{
 \item{x}{a numeric vector of data}

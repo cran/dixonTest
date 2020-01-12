@@ -1,7 +1,7 @@
 # dixonTest.R
 # Part of the R package: dixonTest
 #
-# Copyright (C) 2019 Thorsten Pohlert
+# Copyright (C) 2019,2020 Thorsten Pohlert
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -160,7 +160,6 @@ dixonTest <- function(x, alternative = c("two.sided", "greater", "less"), refine
     j <- as.integer(j)
     n <- as.integer(n)
     rji <- as.double(rji)
-
 
     ## calculate p-value
     pval <- pdixon(rji, n, i, j, lower.tail = TRUE)

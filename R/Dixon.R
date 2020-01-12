@@ -22,11 +22,11 @@
 #' @title Dixon distribution
 #' @description Density, distribution function, quantile function
 #' and random generation for Dixon's ratio statistics \eqn{r_{j,i-1}}{r[j,i-1]}
-#' for outlier detectiond.
+#' for outlier detection.
 #'
 #' @details
 #' According to McBane (2006) the density of the statistics \eqn{r_{j,i-1}}{r[j,i-1]} of Dixon
-#' can be yield if \eqn{x} and \eqn{v} are integrated over range \eqn{(-\infty < x < \infty, 0 \le v < \infty)}
+#' can be yield if \eqn{x} and \eqn{v} are integrated over the range \eqn{(-\infty < x < \infty, 0 \le v < \infty)}
 #'
 #' \deqn{
 #' \begin{array}[h]{lcl}
@@ -61,7 +61,7 @@
 #' under GPL >=2 in the electronic supplement of McBane (2006).
 #' The original files are \file{rfuncs.f}, \file{utility.f} and \file{dixonr.fi}.
 #' They were slightly modified to comply with current CRAN policy and the R manual
-#' \sQuote{"Writing R Extensions"}.
+#' \sQuote{Writing R Extensions}.
 #'
 #' @references
 #' Dixon, W. J. (1950) Analysis of extreme values.
