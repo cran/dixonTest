@@ -96,7 +96,7 @@
 #' pdixon(Rdixon, n = n, i = 3, j = 2)
 #' ddixon(Rdixon, n = n, i = 3, j = 2)
 #'
-#' @useDynLib 'dixonTest', .registration = TRUE, .fixes = "F_"
+#' @useDynLib 'dixonTest', .registration = TRUE, .fixes = 'Dixon_'
 #' @export
 qdixon <- function(p, n, i = 1, j = 1, log.p = FALSE, lower.tail = TRUE)
 {
@@ -126,7 +126,7 @@ qdixon <- function(p, n, i = 1, j = 1, log.p = FALSE, lower.tail = TRUE)
 
     q <-
         .Fortran(
-            "forqdixon",
+            Dixon_forqdixon,
             p = p,
             n = n,
             i = i,
@@ -140,7 +140,6 @@ qdixon <- function(p, n, i = 1, j = 1, log.p = FALSE, lower.tail = TRUE)
 #' @rdname Dixon
 #' @aliases pdixon ddixon
 #' @param q vector of quantiles
-#' @useDynLib 'dixonTest', .registration = TRUE, .fixes = "F_"
 #' @keywords distribution
 #' @export
 pdixon <- function (q, n, i = 1, j = 1, lower.tail = TRUE, log.p = FALSE)
@@ -164,7 +163,7 @@ pdixon <- function (q, n, i = 1, j = 1, lower.tail = TRUE, log.p = FALSE)
 
     p <-
         .Fortran(
-            "forpdixon",
+            Dixon_forpdixon,
             r = q,
             n = n,
             i = i,
@@ -189,7 +188,6 @@ pdixon <- function (q, n, i = 1, j = 1, lower.tail = TRUE, log.p = FALSE)
 #' @param x vector of quantiles.
 #' @param log logical; if \code{TRUE} (default),
 #' probabilities p are given as log(p).
-#' @useDynLib 'dixonTest', .registration = TRUE, .fixes = "F_"
 #' @keywords distribution
 #' @export
 ddixon <- function(x, n, i = 1, j = 1, log = FALSE) {
@@ -212,7 +210,7 @@ ddixon <- function(x, n, i = 1, j = 1, log = FALSE) {
 
     out <-
         .Fortran(
-            "forddixon",
+            Dixon_forddixon,
             r = x,
             n = n,
             i = i,

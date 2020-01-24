@@ -1,8 +1,8 @@
-1d2a1926d7b5f4ced8745ad7495800d2 *DESCRIPTION
-7ea3e97d19ed3150b3aabdd1ae4feab9 *NAMESPACE
-ac9def8c563c19372bbd23f5ea22d572 *R/Dixon.R
+5defa9ffeaeccaa7bc26dd91aae96638 *DESCRIPTION
+74f9b101a18e6ab6f9da5d8f1c194d77 *NAMESPACE
+53fc1649d1a6cf08137130181934a5b3 *R/Dixon.R
 3c4e791f30c6808f9d830d71517684b2 *R/dixonTest.R
-b2b0cf3c97bc87a798c85088c07a4dc6 *inst/NEWS.Rd
+ab9f3280b62422cb516de4dd4c545785 *inst/NEWS.Rd
 5d667ce334ec47974a4d743c77989623 *inst/slowTests/d-p-q-r-tests.R
 e0391f9909760dbb827ee9816c0f98ad *inst/slowTests/d-p-q-r-tests.R.out.save
 ede16d328ff9e11430922a36305b4e75 *inst/slowTests/test1.ref.output.txt
@@ -12,6 +12,6 @@ c484cc759b8731c42e64a9df20f2fc3b *man/Dixon.Rd
 e768a1e28659f7bd406b1904ddbb8118 *man/dixonTest.Rd
 5ae0dda572ca30bb7e12c823b900fc51 *src/dixonr.h
 26633f54ed0df97d511202d29a2f50a2 *src/forpdixon.f
-ffea6e144cb48e1e788206a97391f9bd *src/init.c
+9b7c05f3c4c4bfba1477e357d50628c2 *src/init.c
 b2d8fc9acc3856878c08140c47371f33 *src/rfuncs.f
 8dc0d5b912e22547b9b7b38d817eb535 *src/utility.f

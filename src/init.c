@@ -37,28 +37,3 @@ void R_init_dixonTest(DllInfo *dll)
   R_useDynamicSymbols(dll, FALSE);
   R_forceSymbols(dll, TRUE);
 }
-
-/*
-#include <R.h>
-#include <Rinternals.h>
-#include <R_ext/Rdynload.h>
-#include <R_ext/Visibility.h>
-#include "dixonTest.h"
-
-
-// define Fortran entry points, their names, nr of arguments
-static const R_FortranMethodDef FortEntries[]  = {
-  {"forpdixon", (DL_FUNC) &F77_SUB(forpdixon), 6},
-  {"forqdixon", (DL_FUNC) &F77_SUB(forqdixon), 6},
-  {"forddixon", (DL_FUNC) &F77_SUB(forddixon), 6},
-  {NULL, NULL, 0}
-};
-
-// register
-void attribute_visible R_init_dixonTest(DllInfo *dll)
-{
-  R_registerRoutines(dll, NULL, NULL, FortEntries, NULL);
-  R_useDynamicSymbols(dll, FALSE);
-  R_forceSymbols(dll, TRUE);
-}
-*/
