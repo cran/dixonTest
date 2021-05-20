@@ -66,15 +66,19 @@
 #' @references
 #' Dixon, W. J. (1950) Analysis of extreme values.
 #' \emph{Ann. Math. Stat.} \bold{21}, 488--506.
-#' \url{http://dx.doi.org/10.1214/aoms/1177729747}.
+#' \doi{10.1214/aoms/1177729747}.
+# \url{http://dx.doi.org/10.1214/aoms/1177729747}.
 #'
 #' Dean, R. B., Dixon, W. J. (1951) Simplified statistics for small
 #' numbers of observation. \emph{Anal. Chem.} \bold{23}, 636--638.
-#' \url{http://dx.doi.org/10.1021/ac60052a025}.
+#' \doi{10.1021/ac60052a025}.
+# \url{http://dx.doi.org/10.1021/ac60052a025}.
 #'
 #' McBane, G. C. (2006) Programs to compute distribution functions
 #' and critical values for extreme value ratios for outlier detection.
-#' \emph{J. Stat. Soft.} \bold{16}. \url{http://dx.doi.org/10.18637/jss.v016.i03}.
+#' \emph{J. Stat. Soft.} \bold{16}.
+#' \doi{10.18637/jss.v016.i03}.
+#\url{http://dx.doi.org/10.18637/jss.v016.i03}.
 #'
 #' @param p vector of probabilities.
 # @param n number of observations.
