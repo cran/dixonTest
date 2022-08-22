@@ -29,7 +29,7 @@
 #' can be yield if \eqn{x} and \eqn{v} are integrated over the range \eqn{(-\infty < x < \infty, 0 \le v < \infty)}
 #'
 #' \deqn{
-#' \begin{array}[h]{lcl}
+#' \begin{array}{lcl}
 #' f(r) & = & \frac{n!}{\left(i-1\right)! \left(n-j-i-1\right)!\left(j-1\right)!} \\
 #'       & & \times \int_{-\infty}^{\infty} \int_{0}^{\infty} \left[\int_{-\infty}^{x-v} \phi(t)dt\right]^{i-1}
 #'        \left[\int_{x-v}^{x-rv} \phi(t)dt \right]^{n-j-i-1} \\

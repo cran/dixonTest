@@ -1,6 +1,13 @@
 \name{NEWS}
 \title{dixonTest News}
 \encoding{UTF-8}
+\section{Changes in dixonTest version 1.0.4 (2022-08-22)}{
+ \itemize{
+  \item The \code{Rd} section file \code{Dixon.R} was changed,
+  in order to comply with novel R's help system that bases 
+  on KaTeX.
+ }
+}
 \section{Changes in dixonTest version 1.0.3 (2021-05-21)}{
  \itemize{
   \item The \code{DESCRIPTION} file was changed to 

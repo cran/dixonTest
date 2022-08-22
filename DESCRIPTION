@@ -1,8 +1,8 @@
 Package: dixonTest
 Type: Package
 Title: Dixon's Ratio Test for Outlier Detection
-Version: 1.0.3
-Date: 2021-05-28
+Version: 1.0.4
+Date: 2022-08-22
 Authors@R: c(person("Thorsten", "Pohlert", role = c("aut", "cre"),
              email = "thorsten.pohlert@gmx.de",
              comment = c(ORCID = "0000-0003-3855-3025")),
@@ -18,10 +18,10 @@ ByteCompile: yes
 NeedsCompilation: yes
 Encoding: UTF-8
 Classification/MSC-2010: 62F03, 62E17, 62Q05
-RoxygenNote: 7.1.1
-Packaged: 2021-05-20 16:16:37 UTC; thorsten
+RoxygenNote: 7.2.0
+Packaged: 2022-08-22 19:24:55 UTC; thorsten
 Author: Thorsten Pohlert [aut, cre] (<https://orcid.org/0000-0003-3855-3025>),
   George C. McBane [ctb]
 Maintainer: Thorsten Pohlert <thorsten.pohlert@gmx.de>
 Repository: CRAN
-Date/Publication: 2021-05-20 21:50:02 UTC
+Date/Publication: 2022-08-22 19:40:02 UTC
